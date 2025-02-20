@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@huggingface/transformers": "^3.3.3",
+    "alphavantage": "^2.5.0",
     "axios": "^1.7.9",
     "cohere-ai": "^7.15.4",
+    "express": "^4.21.2",
     "newsapi": "^2.4.1",
     "next": "15.1.7",
     "node-cron": "^3.0.3",
