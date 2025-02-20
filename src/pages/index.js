@@ -30,8 +30,28 @@ const Home = () => {
             }
         };
 
+
+// const fetchNewssecond = async () => {
+//     try {
+//       const res = await axios.get('https://newsdata.io/api/1/sources', {
+//         params: {
+//           apikey: 'YOUR_API_KEY', // Replace with your API key
+//           q: 'finance, stock market,', // Searching for finance and stock market-related news
+//           language: 'en',
+//           country: 'us', // Optional: Set to your preferred country
+//         },
+//       });
+  
+//       setArticles(res.data)
+//     } catch (error) {
+//       console.error('Error fetching news:', error);
+//       return { error: 'Error fetching news' };
+//     }
+//   };
+
         // Fetch news initially and every 5 minutes
         fetchNews();
+        // fetchNewssecond()
         const intervalId = setInterval(fetchNews, 5 * 60 * 1000);
 
         // Cleanup interval on component unmount
