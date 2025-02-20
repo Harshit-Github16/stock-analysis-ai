@@ -6,7 +6,7 @@ const Home = () => {
     const [articles, setArticles] = useState([]);
     const [analysis, setAnalysis] = useState({});
     const [error, setError] = useState(null);
-    // const NewsApiKey = "9537577f8e684c0dbdf791869fbbbea0"; 
+    const NewsApiKey = "9537577f8e684c0dbdf791869fbbbea0"; // Replace with your actual News API key
 
     useEffect(() => {
         const fetchNews = async () => {
@@ -117,6 +117,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-
