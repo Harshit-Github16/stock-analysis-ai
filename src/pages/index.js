@@ -6,7 +6,7 @@ const Home = () => {
     const [articles, setArticles] = useState([]);
     const [analysis, setAnalysis] = useState({});
     const [error, setError] = useState(null);
-    // const NewsApiKey = "9537577f8e684c0dbdf791869fbbbea0"; 
+    const NewsApiKey = "9537577f8e684c0dbdf791869fbbbea0"; 
 
     useEffect(() => {
         const fetchNews = async () => {
