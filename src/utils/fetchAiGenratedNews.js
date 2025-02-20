@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // import axios from 'axios'
-const OPENAI_API_KEY = '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'; // Replace with your actual OpenAI API key
+// const OPENAI_API_KEY = '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'; // Replace with your actual OpenAI API key
 
 
 
